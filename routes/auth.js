@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 // route POST request api/auth
 // decsription - Auth user and get token
 // public access
-router.get('/', (req, res) => {
+router.post('/', (req, res) => {
     res.send('log in user');
 });
 module.exports = router;
